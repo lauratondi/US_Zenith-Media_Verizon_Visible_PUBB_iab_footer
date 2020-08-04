@@ -1,0 +1,112 @@
+body {
+  background: #1800ff;
+}
+
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url("../assets/font/CircularStd-Book.woff") format("woff");
+}
+@font-face {
+  font-family: "CircularStd-BookItalic";
+  src: url("../assets/font/CircularStd-BookItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "FuturaStd-Heavy";
+  src: url("../assets/font/FuturaStd-Heavy.woff") format("woff");
+}
+
+.wrapper {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Collapsed */
+
+#content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+#collapsed #image {
+  position: absolute;
+  width: 17%;
+  top: 7%;
+  align-self: flex-end;
+  right: 0%;
+
+  transform: translateY(5%);
+}
+
+#intro {
+  position: absolute;
+  font-family: "FuturaStd-Heavy";
+  font-size: 36px;
+  color: white;
+  top: 2%;
+  left: 5%;
+  letter-spacing: 4px;
+}
+
+#cta {
+  position: absolute;
+  font-family: "FuturaStd-Heavy";
+  color: #1800ff;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  width: 10%;
+  left: 5%;
+  top: 20%;
+}
+
+#cta:hover {
+  opacity: 0.8;
+}
+
+#logo {
+  position: absolute;
+  width: 10%;
+  left: 5%;
+  top: 36%;
+}
+
+/* EXPANDED */
+
+/* #expanded {
+  opacity: 0;
+} */
+
+#contentExp {
+  position: absolute;
+  left: 4%;
+  top: 6%;
+  width: 100%;
+  opacity: 0;
+}
+
+#contentExp p {
+  color: white;
+  font-family: "CircularStd-Book";
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  display: inline-block;
+}
+
+#psmall {
+  position: absolute;
+  font-size: 11px;
+  /* top: 75%; */
+  bottom: 6%;
+  color: white;
+  font-family: "CircularStd-Book";
+  left: 5%;
+  /* opacity: 0; */
+  /* transform: translateY(50%); */
+}

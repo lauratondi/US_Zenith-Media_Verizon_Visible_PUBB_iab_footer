@@ -1,0 +1,13 @@
+{
+	"clickurl": "http://www.example.com",
+	"format": "IAB Footer",
+
+	"size": {
+		"width": 970,
+		"height": 250
+	},
+
+	"style": {
+		"background": "white"
+	}
+}
